@@ -1,0 +1,51 @@
+name: burberapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.27.1
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  image_picker: ^1.0.7
+  firebase_auth: ^4.18.0
+  dash_chat_2: ^0.0.20
+  firebase_analytics: ^10.9.0
+  path: ^1.8.3
+  delightful_toast: ^1.1.0
+  get_it: ^7.6.7
+  random_string: ^2.3.1
+  shared_preferences: ^2.2.2
+#  path_provider: ^2.1.2
+#  firebase_auth: ^4.17.9
+#  cached_network_image: ^3.3.1
+#  emoji_picker_flutter: ^2.1.1
+#  firebase_messaging: ^14.7.20
+#  http: ^1.2.0
+#  flutter_notification_channel: ^3.0.0
+#  random_string: ^2.3.1
+#  get: ^4.6.6
+#  smooth_page_indicator: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+dependency_overrides:
+  web: ^0.5.1  # Override the pinned version
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
